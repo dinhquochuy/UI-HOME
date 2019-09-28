@@ -1,0 +1,323 @@
+@media only screen and (min-width : 0) and (max-width : 767px) {
+body { font-size: 14px }
+/*#Wraper-Order, .main-block-mobile { margin-top: 60px }*/
+#Wraper-Order { padding: 0 10px !important }
+.container.home-wrapper, #Section-1 { padding: 0 20px; }
+#header-nav.container-fluid:before { display: none }
+#header-nav { margin-top: 50px }
+.AsideTitle, .AsideTitle * { font-size: 14px }
+/* Menu Mobile
+/* ========================================================================== */
+#Control-Menu-Top { display: none }
+/*navbar-toggle.collapsed*/
+#header-full { height: 50px; position: fixed; top: 0; z-index: 999; padding-top: 5px; box-shadow: 0 0 10px #fbb1b7 }
+#header-full .navbar-toggle.collapsed { border: none; height: 30px; left: 5px; margin: 0; position: absolute; top: 0; z-index: 10000; display: block }
+#header-full .navbar-toggle.collapsed .icon-bar { border: 2px solid #F31A2B }
+/*Search*/
+.sidr-inner input[data-type="search-query"] { border: 2px solid #F31A2B; height: 36px; padding: 5px; width: 95%; margin: 5px }
+.form-control::-moz-placeholder, .sidr-inner input[data-type="search-query"], .form-control::-webkit-placeholder, .sidr-inner input[data-type="search-query"] {
+color:#999;
+font-size:12px
+}
+/*Header-Order*/
+#Header-Order { }
+/* Logo
+/* ========================================================================== */
+#Logo { width: 100%; top: 0; text-align: center; margin: 0 }
+#Logo img { max-height: 40px; margin: 0 }
+/*Tool*/
+#Control-Seach, #Control-Header-Hotline { padding: 0 }
+/*Home-Slide*/
+#Control-Home-Slide { margin-left: 0 !important; width: 100% !important }
+.bg-header-nav { display: none }
+/*Menu-Branch*/
+.Menu-Branch li { height: 60px }
+/******************
+Home Product
+*******************************************************************************/
+.heading-style h2 { font-size: 18px }
+.Home-Product:nth-of-type(2n+1) { clear: both }
+.Home-Product { padding-bottom: 10px }
+.Home-Product > a { padding-bottom: 20px }
+.Home-Product figure { height: 160px }
+.Home-Product .right-block { text-align: left }
+.Home-Product .ProductName { height: 60px; margin-bottom: 5px }
+.Home-Product .sale-price { font-size: 11px; right: -50px }
+.Home-Product .ProductPriceNew, .Home-Product .ProductPriceNew span, .ProductRelate2 .ProductRelate .ProductPriceNew { font-size: 14px !important }
+.Home-Product .ProductPriceVirtual, .ProductRelate2 .ProductRelate #ProductRelate-Right { font-size: 13px }
+.Home-Product .ratings { margin-top: 10px }
+.Home-Product .OrderProductButton { bottom: 0; line-height: 32px }
+.Home-Product .OrderProductButton span { font-size: 11px; font-weight: 700 }
+.sub-category-wapper { margin-top: 10px }
+/*Home-Product-Feature*/
+.box-right .product-list { margin-left: 0 }
+.FixProduct figure { height: 170px !important }
+/******************
+Home Slide
+*******************************************************************************/
+.Home-Slide .owl-prev::before, .Home-Slide .owl-next::before { font-size: 30px !important }
+.Home-Slide .owl-prev, .Home-Slide .owl-next { height: 35px !important; width: 35px !important }
+/******************
+Footer
+*******************************************************************************/
+.footer .ftop { background-position: -530px top; height: 250px; }
+.footer .ftop .left, .footer .ftop .right { width: 100% }
+.footer .ftop .right { width: 100%; padding: 0 15px }
+.footer .ftop .left h4 { width: 73% }
+.footer .ftop .left h3 { float: left; font-size: 35px; margin-left: 15px; }
+.footer .ftop .right .newsle_eminput { width: 60%; }
+.footer .ftop .right .input_submit { padding: 15px 10px }
+.footer .secarea .address, .copyrights .aliright { text-align: left }
+.footer ul.foolist { margin-bottom: 15px }
+.ft-social { float: left }
+/******************
+Home Main Bottom
+*******************************************************************************/
+.block-news-video { padding: 0 !important }
+.main-content-bottom >div.container { padding: 20px 5px !important }
+.main-content-bottom .block-news-latest { padding-right: 0 }
+.block-news-video { padding: 30px 0 }
+.main-content-bottom .News-Sidebar { padding-left: 8px !important; padding-right: 8px !important; border-bottom: none !important }
+.main-content-bottom .News-Sidebar:nth-of-type(2n+1) { clear: both }
+.main-content-bottom .News-Sidebar .imageLinkWrapper { min-height: 85px !important }
+.main-content-bottom .assetText { padding: 0 }
+.main-content-bottom .News-Sidebar h3 { display: block; margin: 10px 0 5px }
+.main-content-bottom .CreateDate, .main-content-bottom .Visit { display: block; width: 100% }
+/******************
+Menu Aside
+*******************************************************************************/
+.Menu-Left ul li a { font-size: 16px }
+/*News And Product Latest*/
+.News-Sidebar-Block .item:nth-of-type(2n+1) { clear: both }
+.News-Sidebar-Block .item > a { border: none !important }
+.News-Sidebar-Block .NewsName h4 { font-size: 13px !important; height: 55px; margin-top: 5px; overflow: hidden }
+/******************
+Product
+*******************************************************************************/
+.ProductInfoInner { margin-left: -15px; margin-right: -15px }
+.OrderProductButton button, #PrintOne a { font-size: 100% !important; margin-top: 3px; width: 100%; max-width: 100% }
+.Product-ViewPoint { margin-top: 15px }
+.Product-Support .secsion-yahoo { margin-right: 5px }
+.Product-Support a img { max-width: 60px; height: auto }
+.quickSpecs #Context, .quickSpecs #Context *, .quickSpecs #Context ul li, .quickSpecs #Context ul li *, .FeatureList li a, .ProductRelate2 .ProductRelate #ProductRelate-Middle, .ProductRelate2 .ProductRelate #ProductRelate-Middle *, .Product-Support, .Product-Support *, .ProductExtraInfo a { line-height: 1.5 }
+#Product .ProductMeta .ProductPriceNew { font-size: 22px !important }
+#Product-Picture { margin-bottom: 0; padding: 0 }
+.AsideTitle, .AsideTitle * { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.Product-ViewPoint ul li, .Product-ViewPoint ul li a { font-size: 16px }
+/*Product-Support*/
+/*ProductRelate2*/
+.ProductRelate2 .ProductRelate #ProductRelate-Middle { min-height: inherit }
+#ProductRelate-Right { padding-top: 0 }
+#ProductRelate3, #ProductRelate1 { padding-right: 0 }
+.ProductRelate2 .ProductRelate .ProductPriceNew { text-transform: uppercase }
+.ProductRelate2 .ProductRelate #ProductRelate-Right { position: relative !important; transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; -webkit-transform: none; top: 0 }
+/*SIDEBAR*/
+.other-product .NewsRelate .NewsName h4, .topNewsOrderByVisit .NewsRelate .NewsName h4 { font-size: 16px !important }
+/******************
+ProductGroup
+*******************************************************************************/
+.ProductGroupRight { padding-left: 0 !important; padding-right: 0 }
+#ProductFilter label { font-size: 16px; margin-top: 5px }
+#ProductFilter select { margin-left: 0 !important; margin-bottom: 7px }
+/******************
+NewsGroup
+*******************************************************************************/
+#NewsGroup { padding: 0 10px }
+#NewsGroup .NewsGroup { }
+#NewsGroup .NewsGroup .imageLinkWrapper { margin-bottom: 10px }
+#NewsGroup .NewsGroup .Picture { max-width: 100% !important; height: 180px !important }
+#NewsGroup .NewsGroup .assetText { padding-left: 0 !important }
+/*latestNewsItems*/
+.latestNewsItems h3 { display: block; font-size: 16px }
+/******************
+News
+*******************************************************************************/
+#News { padding: 0 10px }
+#News .Context img { height: auto !important }
+/*NewsRelate*/
+#NewsRelate .NewsRelate { padding-left: 5px !important; padding-right: 5px !important }
+#NewsRelate .NewsRelate.col-xs-6.col-sm-12.col-md-12 { clear: both; width: 100% }
+/*NewsAside*/
+#News-Sidebar .News-Sidebar, #NewsRelate .NewsRelate { border-bottom: none !important }
+#News-Sidebar .Picture, #NewsRelate .NewsRelate .Picture, #Product-Sidebar .Product-Sidebar .Picture { height: 110px !important }
+#News-Sidebar .NewsName h4, #NewsRelate .NewsRelate .NewsName, .newsRight #Product-Sidebar .NewsName h4 { display: block; font-size: 16px !important }
+/*ProductAside*/
+.newsRight #Product-Sidebar .Product-Sidebar { width: 50%; border-bottom: none }
+.newsRight #Product-Sidebar .Product-Sidebar .Picture, .Sidebar-Product .Picture { height: 110px !important }
+.Sidebar-Product .ProductPriceNew { font-size: 16px }
+/**/
+}
+ @media only screen and (min-width : 768px) and (max-width : 991px) {
+body { font-size: 16px }
+/*#Wraper-Order, .main-block-mobile { margin-top: 60px }*/
+#Wraper-Order { padding: 0 10px !important}
+#header-nav {margin-top: 50px;}
+.container.home-wrapper, #Section-1 { padding: 0 20px; }
+#header-nav.container-fluid:before { display: none }
+/* Menu Mobile
+/* ========================================================================== */
+#Control-Menu-Top { display: none }
+.top-bar { background: none; position: absolute; right: 0; text-align: right; width: 30%; z-index: 999; }
+/*navbar-toggle.collapsed*/
+#header-full { box-shadow: 0 0 10px #fbb1b7; height: 50px; padding-top: 5px; position: fixed; top: 0; z-index: 999; }
+#header-full { height: 50px; position: fixed; top: 0; z-index: 999; padding-top: 5px; box-shadow: 0 0 10px #fbb1b7 }
+#header-full .navbar-toggle.collapsed { border: none; height: 30px; left: 5px; margin: 0; position: absolute; top: 0; z-index: 10000; display: block }
+#header-full .navbar-toggle.collapsed .icon-bar { border: 2px solid #F31A2B }
+/*Search*/
+.sidr-inner input[data-type="search-query"] { border: 2px solid #F31A2B; height: 36px; padding: 5px; width: 95%; margin: 5px }
+.form-control::-moz-placeholder, .sidr-inner input[data-type="search-query"], .form-control::-webkit-placeholder, .sidr-inner input[data-type="search-query"] {
+color:#999;
+font-size:12px
+}
+/*Header-Order*/
+#Control-Seach, #Control-Header-Order, #Control-Header-Hotline { padding: 0 }
+/* Logo
+/* ========================================================================== */
+#Logo { width: 100%; top: 0; text-align: center }
+#Logo img { max-height: 40px; margin: 0 }
+/*Home-Slide*/
+#Control-Home-Slide { margin-left: 0 !important; width: 100% !important }
+.bg-header-nav { display: none }
+/******************
+Footer
+*******************************************************************************/
+.footer .ftop { background-position: -530px top; height: 130px; }
+.footer .ftop .left { width: 27% }
+.footer .ftop .right { width: 60%; padding: 0 15px }
+.footer .ftop .left h4 { width: 94% }
+.footer .ftop .left h3 { float: left; font-size: 24px; margin-left: 15px; }
+.footer .ftop .right .newsle_eminput { width: 73%; }
+.footer .ftop .right .input_submit { padding: 15px 10px }
+.footer .secarea .address { text-align: left }
+.footer ul.foolist { margin-bottom: 15px }
+/******************
+Home Product
+*******************************************************************************/
+.Home-Product { }
+.Home-Product .ProductName { margin-top: 0 }
+.Home-Product .ProductPriceNew {font-size: 16px}
+.Home-Product figure { height: 160px }
+.Home-Product figure img { max-height: 150px; max-width: 90%; }
+/*.Home-Product .Context { max-height: 110px }*/
+.Home-Product-Feature { height: auto }
+.Home-Product-Feature figure { height: 260px; }
+/******************
+Home Main Bottom
+*******************************************************************************/
+.block-news-video { padding: 0 !important }
+.main-content-bottom > div.container { padding: 0 15px !important }
+/******************
+Product
+*******************************************************************************/
+#Product .Breadcrumbs {margin: 10px 15px 0}
+#Product .ProductInfo, #Product .ProductInfoBottom, #Product-Column-Right .aside-inner{margin: 0}
+#Product .ProductInfoInner {margin: 10px -15px 0}
+#Product-Column-Right { margin-top: 15px }
+#Product .ProductMeta .ProductPriceNew { font-size: 30px }
+#Product-Column-Left { padding-right: 15px }
+/*News And Product Latest*/
+.News-Sidebar-Block .item:nth-of-type(2n+1) { clear: both }
+.News-Sidebar-Block .item > a { border: none !important }
+/******************
+Home Main Bottom
+*******************************************************************************/
+.main-content-bottom .imageLinkWrapper { min-height: 50px !important }
+/******************
+Product Group
+*******************************************************************************/
+.ProductGroupLeft .aside-inner {margin: 0}
+#ProductGroup .Breadcrumbs {padding: 10px 15px 0}
+#ProductGroup-Ajax {}
+.ProductRelate3 .Home-Product-2, #ProductGroup .Home-Product-2 { height: 250px }
+.heading-style h2 { font-size: 18px }
+#ProductGroup .Home-Product:nth-of-type(3n+1), #ProductRelate3 .Home-Product:nth-of-type(3n+1) { clear: both; border-left: 1px solid #e5e5e5 }
+/*#ProductGroup .Home-Product:nth-of-type(3n+1), #ProductRelate3 .Home-Product:nth-of-type(3n+1){ clear: none }*/
+/******************
+ NewsProduct
+*******************************************************************************/
+#NewsGroup {padding-left: 15px; padding-right: 15px}
+div[section="CMS_ProductHot_Sidebar_For_Review"] .producthot_sidebar_item:nth-of-type(2n+1) { clear: both; margin-bottom: 0 }
+.Sidebar-Product .ProductName h4 {font-size: 14px; height: 50px; display: block}
+.Sidebar-Product .Picture {height: 160px}
+/******************
+ News
+*******************************************************************************/
+#News {padding: 0 15px}
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+.col-20 { width: 20%; float: left }
+.col-60 { width: 60%; float: left }
+.col-80 { width: 80%; float: left }
+.offset-20 { margin-left: 20%; width: 80% }
+/******************
+HEADER
+*******************************************************************************/
+#header-full .navbar-toggle.collapsed { border: none; height: 45px; right: 5px !important; margin: 0; position: absolute; top: 5px; z-index: 10000; display: block }
+#header-full .navbar-toggle.collapsed .icon-bar { border: 2px solid #fff }
+/*Header-Order*/
+#Control-Header-Order { padding-right: 5px }
+#Header-Order { font-size: 14px; padding-left: 90px }
+#Header-Order:before { font-size: 14px }
+/*Menu-Top*/
+.Menu-Top-Bar > li { padding: 0 15px }
+.Menu-Top-Bar > li > a { font-size: 11px; padding: 0 8px; }
+/*Footer*/
+.footer .secarea h4 { font-size: 15px }
+.footer .ftop .right .newsle_eminput { width: 70% }
+/*Footer*/
+.footer .ftop .left h3 {font-size: 40px}
+/******************
+ Home-Product
+*******************************************************************************/
+.Home-Product { }
+.Home-Product .ProductName { margin-top: 0 }
+.Home-Product .ProductPriceNew sup { top: 0 }
+.Home-Product .ProductPriceNew { }
+.Home-Product figure { }
+.Home-Product figure img { max-height: 90%; max-width: 85%; }
+/*.Home-Product .Context { max-height: 110px }*/
+.Home-Product-Feature { height: auto }
+.Home-Product-Feature figure { height: 260px; }
+/******************
+ Product
+*******************************************************************************/
+#Product-Column-Left, .ProductGroupRight { width: 77% }
+#Product-Column-Right, .ProductGroupLeft { width: 23% }
+/*Product-Support*/
+.Product-Support .nav > li > a { padding: 10px }
+/*
+ProductRelate3*/
+.ProductRelate3 .Home-Product-2, #ProductGroup .Home-Product-2 { height: 250px }
+.ProductRelate3 .Home-Product-2:nth-of-type(3n+1), #ProductGroup .Home-Product-2:nth-of-type(3n+1) { border-left: 1px solid #e5e5e5 }
+/******************
+ ProductGroup
+*******************************************************************************/
+.ProductGroupRight { padding-left: 10px; padding-right: 0 }
+}
+ @media(min-width:1200px) {
+.col-20 { width: 20%; float: left }
+.col-60 { width: 60%; float: left }
+.col-80 { width: 80%; float: left }
+.offset-20 { margin-left: 20%; width: 80% }
+/******************
+HEADER
+*******************************************************************************/
+#header-full .navbar-toggle.collapsed { right: 20px !important }
+#header-nav.container-fluid:not(.header-nav-close){min-height: 380px}
+/*Footer*/
+.footer .ftop .left h3 {font-size: 45px}
+/******************
+Home-Product
+*******************************************************************************/
+.Home-Product-20 { width: 20% }
+/*.Home-Product:nth-of-type(5n+1)::after { width: 1190px }*/
+.Home-Product, .ProductRelate3 .Home-Product-2 { height: 255px }
+.Home-Product:nth-of-type(4n+1) { }
+.Home-Product figure { height: 160px; }
+.Home-Product-Feature figure { height: 224px }
+/******************
+ Product
+*******************************************************************************/
+#Product-Column-Left, .ProductGroupRight { width: 77% }
+#Product-Column-Right, .ProductGroupLeft { width: 23% }
+}
